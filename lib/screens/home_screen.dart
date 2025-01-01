@@ -192,9 +192,19 @@ class _HomeScreenState extends State<HomeScreen>
                         'JPY',
                         'KWD',
                         'MXN',
+                        'CAD',
+                        'AUD',
+                        'CHF',
+                        'CNY',
+                        'SEK',
+                        'NOK',
+                        'DKK',
+                        'RUB',
+                        'INR',
+                        'SAR',
                         'GOLD',
                         'XAU'
-                      ]);
+                      ], context);
 
                       if (allCurrencies.isEmpty) {
                         return Center(
@@ -408,8 +418,24 @@ class _HomeScreenState extends State<HomeScreen>
               _buildCurrencyCard(
                 context,
                 languageProvider.translate('exchange_rates'),
-                provider.getFilteredCurrencies(
-                    ['USD', 'EUR', 'GBP', 'JPY', 'KWD', 'MXN']),
+                provider.getFilteredCurrencies([
+                  'USD',
+                  'EUR',
+                  'GBP',
+                  'JPY',
+                  'KWD',
+                  'MXN',
+                  'CAD',
+                  'AUD',
+                  'CHF',
+                  'CNY',
+                  'SEK',
+                  'NOK',
+                  'DKK',
+                  'RUB',
+                  'INR',
+                  'SAR'
+                ], context),
                 provider,
                 Icons.currency_exchange,
               ),
@@ -417,7 +443,7 @@ class _HomeScreenState extends State<HomeScreen>
               _buildCurrencyCard(
                 context,
                 languageProvider.translate('gold_prices'),
-                provider.getFilteredCurrencies(['GOLD', 'XAU']),
+                provider.getFilteredCurrencies(['GOLD', 'XAU'], context),
                 provider,
                 Icons.monetization_on,
               ),
