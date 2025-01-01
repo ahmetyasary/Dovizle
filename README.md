@@ -27,10 +27,10 @@
 ## 📸 Ekran Görüntüleri
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="screenshots/home.png" alt="Ana Sayfa" width="200"/>
-  <img src="screenshots/detail.png" alt="Detay Sayfası" width="200"/>
-  <img src="screenshots/notifications.png" alt="Bildirimler" width="200"/>
-  <img src="screenshots/settings.png" alt="Ayarlar" width="200"/>
+  <img src="screenshots/home.PNG" alt="Ana Sayfa" width="200"/>
+  <img src="screenshots/detail.PNG" alt="Detay Sayfası" width="200"/>
+  <img src="screenshots/notifications.PNG" alt="Bildirimler" width="200"/>
+  <img src="screenshots/settings.PNG" alt="Ayarlar" width="200"/>
 </div>
 
 ## 🚀 Kurulum
