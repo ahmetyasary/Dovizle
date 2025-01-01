@@ -10,9 +10,32 @@
 - 🔄 **Anlık Döviz Kurları**: TCMB'den güncel döviz kurlarını takip edin
 - 💰 **Altın Fiyatları**: Gram ve ons altın fiyatlarını anlık izleyin
 - 📊 **Detaylı Grafikler**: Haftalık ve aylık değişimleri görsel olarak inceleyin
+- 🌙 **Geçmiş Veriler**: Son 10 günlük değişimleri takip edin
 - 🌙 **Karanlık/Aydınlık Tema**: Göz yormayan tasarım
 - 🌍 **Çoklu Dil Desteği**: Türkçe ve İngilizce dil seçenekleri
 - 🔔 **Bildirimler**: Önemli kur değişikliklerinden haberdar olun
+- 🔍 **Gelişmiş Arama**: Türkçe karakterli arama desteği
+
+## 💰 Desteklenen Para Birimleri
+
+- 🇺🇸 USD (Amerikan Doları)
+- 🇪🇺 EUR (Euro)
+- 🇬🇧 GBP (İngiliz Sterlini)
+- 🇯🇵 JPY (Japon Yeni)
+- 🇰🇼 KWD (Kuveyt Dinarı)
+- 🇲🇽 MXN (Meksika Pezosu)
+- 🇨🇦 CAD (Kanada Doları)
+- 🇦🇺 AUD (Avustralya Doları)
+- 🇨🇭 CHF (İsviçre Frangı)
+- 🇨🇳 CNY (Çin Yuanı)
+- 🇸🇪 SEK (İsveç Kronu)
+- 🇳🇴 NOK (Norveç Kronu)
+- 🇩🇰 DKK (Danimarka Kronu)
+- 🇷🇺 RUB (Rus Rublesi)
+- 🇮🇳 INR (Hindistan Rupisi)
+- 🇸🇦 SAR (Suudi Arabistan Riyali)
+- 💎 GOLD (Gram Altın)
+- 💍 XAU (Ons Altın)
 
 ## 🛠️ Teknolojiler
 
@@ -49,6 +72,15 @@ flutter pub get
 ```bash
 flutter run
 ```
+
+## 🤝 Desteklenen Platformlar
+
+- ✅ iOS
+- ✅ Android
+- ✅ Web (yakında)
+- ✅ macOS (yakında)
+- ✅ Windows (yakında)
+- ✅ Linux (yakında)
 
 ## 🤝 Katkıda Bulunma
 
