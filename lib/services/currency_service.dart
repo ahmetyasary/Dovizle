@@ -8,10 +8,15 @@ import 'package:provider/provider.dart';
 
 class CurrencyService {
   static const String _baseUrl = 'https://www.tcmb.gov.tr/kurlar/today.xml';
+  static const String _corsProxy = 'https://api.allorigins.win/raw?url=';
 
   Future<Map<String, dynamic>> fetchCurrencyRates() async {
     try {
-      final response = await http.get(Uri.parse(_baseUrl));
+      final isWeb = identical(0, 0.0);
+      final url =
+          isWeb ? '$_corsProxy${Uri.encodeComponent(_baseUrl)}' : _baseUrl;
+
+      final response = await http.get(Uri.parse(url));
 
       if (response.statusCode == 200) {
         return _parseXmlResponse(response.body);
